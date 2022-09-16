@@ -72,7 +72,7 @@ https://www.geeksforgeeks.org/big-data-analytics-life-cycle/
 <br>
 <br>
 <br>
-<h4>Question 5:</h4>
+<h4>Question 4:</h4>
 Challenges in Big Data analysis
 <li>Lack of knowledge Professionals</li>
 To run these cutting-edge innovations and enormous data, organizations need talented information experts. One of the difficulties any Organization face is absence of huge Information experts
