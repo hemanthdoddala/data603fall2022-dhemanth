@@ -74,6 +74,10 @@ From this our observation was that we are working with 35% of the businesses whi
 ## Step -3 (Analysis)
 After understanding the datasets and the components we wanted to analyse the combination of the datasets and bring out meaningful information from it. Hence, we started to join the datasets. We have layers to our analysis which are shown below.
 1. Reviews distribution: Our first finding was that out of total about 68% of the reviews that are on Yelp comprise of reviews for the restaurants and only 32% for other businesses, i.e 2/3 of the reviews.
+
+![MicrosoftTeams-image (8)](https://user-images.githubusercontent.com/66125929/206598644-0bce0a29-3201-4ac4-a783-2b7804c4f352.png)
+
+
 2. Rating distribution: From our analysis we were able to see the overall rating or the distribution of ratings across the restaurants, where high number of restaurants saw a rating between 3.5 to 4.5
 <img width="1117" alt="Screen Shot 2022-12-07 at 9 23 29 PM" src="https://user-images.githubusercontent.com/66125929/206340964-0f2158c5-35c5-4bcc-abfb-52e742c1f3a1.png">
 3. Trend for checkin and review to the star ratings: Our observations for the Checkin_count and the review count for the restaurants which shows that becasue of the rating of the restaurants the checkins have been affected. The lesser number of stars the lower number of checkin_count.
