@@ -1,4 +1,9 @@
 # Data-603-Project
+Team 3: Yelper <br>
+Hemanth <br>
+Vinay<br>
+Utkarshika
+
 # Yelp Data Analysis
 
 The yelp data set is a trove of reviews, businesses, users, tips and check in data. In this project we are analyzing restaurant out of the other businesses found on yelp such as medical services, hotels etc. This notebook comprises of data for  years(Feb 2005-Jan 2022). 
@@ -8,9 +13,11 @@ We have used yelp data to visualize  the ratings and reviews for businesses in a
 
 
 # Dataset description
+Extraction- https://www.yelp.com/dataset
+
 Our dataset is from Yelp.com. The dataset contains 5 JavaScript Object Notation(JSON) files. The yelp data set is a trove of reviews, businesses, users, tips and check in data all of whoch can be used for private, academic and educational purposes.
 1. Business Dataset: 
-Contains information about businesses, such as geographic information, attributes, rating, and categories. This dataset consists of 150346 rows and 14 columns (5.34 GB)
+Contains information about businesses, such as geographic information, attributes, rating, and categories. This dataset consists of 150346 rows and 14 columns (120 MB)
 2. Review Dataset: 
 Contains complete review text information, such as the user who authored the review and the business for which it was written. This dataset consists of 6.9 million rows and 9 columns (5.34 GB)
 3. User Dataset:
@@ -77,10 +84,14 @@ After understanding the datasets and the components we wanted to analyse the com
 
 ![MicrosoftTeams-image (8)](https://user-images.githubusercontent.com/66125929/206598644-0bce0a29-3201-4ac4-a783-2b7804c4f352.png)
 
+2. Tips are most in the restaurant data
+<img width="718" alt="Screen Shot 2022-12-08 at 8 41 35 PM" src="https://user-images.githubusercontent.com/66125929/206603789-d3030bf6-e5b9-43cf-9826-c99908a02a7a.png">
 
-2. Rating distribution: From our analysis we were able to see the overall rating or the distribution of ratings across the restaurants, where high number of restaurants saw a rating between 3.5 to 4.5
+3. Rating distribution: From our analysis we were able to see the overall rating or the distribution of ratings across the restaurants, where high number of restaurants saw a rating between 3.5 to 4.5
 <img width="1117" alt="Screen Shot 2022-12-07 at 9 23 29 PM" src="https://user-images.githubusercontent.com/66125929/206340964-0f2158c5-35c5-4bcc-abfb-52e742c1f3a1.png">
-3. Trend for checkin and review to the star ratings: Our observations for the Checkin_count and the review count for the restaurants which shows that becasue of the rating of the restaurants the checkins have been affected. The lesser number of stars the lower number of checkin_count.
+
+
+4. Trend for checkin and review to the star ratings: Our observations for the Checkin_count and the review count for the restaurants which shows that becasue of the rating of the restaurants the checkins have been affected. The lesser number of stars the lower number of checkin_count.
 
 ## Step -3.1 (Location based Analysis)
 We wanted to get location based data so, We found
@@ -121,9 +132,11 @@ The number of reviews were highest for McDonalds
 
 3. We analysed chick- fil-A which has the highest and the lowest rating and compared them .
 
-![MicrosoftTeams-image (2)](https://user-images.githubusercontent.com/66125929/206588451-7d9f148e-590c-477e-9357-189ee4dd450a.png)
+
 
 ![MicrosoftTeams-image (3)](https://user-images.githubusercontent.com/66125929/206588505-d299d494-de80-4a4c-99c7-ef6bf440d902.png)
+
+<img width="1371" alt="Screen Shot 2022-12-08 at 8 14 09 PM" src="https://user-images.githubusercontent.com/66125929/206600786-428733b2-a8c4-4519-a6b3-4c8c03fe8760.png">
 
 3.1 Review:
 For Good Ratings
@@ -173,7 +186,7 @@ Where in we found
 # Challenges
 1. Reading data from Hadoop after inserting data into HDFS.
 2. While cleaning data for business- the same restaurant has multiple spellings listed(unique entries but is the same restaurant.
-3. Not able to Use MLA for clustering.
+3. Not able to Use MLlib for clustering.
 
 
 
